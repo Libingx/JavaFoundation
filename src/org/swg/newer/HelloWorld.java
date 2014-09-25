@@ -1,4 +1,4 @@
-package org.swg;
+package org.swg.newer;
 
 public class HelloWorld {
 	
