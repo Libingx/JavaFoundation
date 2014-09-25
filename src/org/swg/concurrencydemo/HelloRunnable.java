@@ -1,5 +1,11 @@
 package org.swg.concurrencydemo;
-
+/*
+ * Each thread is associated 
+ * with an instance of the class Thread.
+ *  There are two basic strategies 
+ *  for using Thread objects 
+ *  to create a concurrent application.
+ */
 public class HelloRunnable implements Runnable{
 
 	@Override

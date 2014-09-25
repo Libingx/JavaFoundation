@@ -1,11 +1,15 @@
+
+package org.swg.concurrencydemo;
 /*
- * This is an efficient means of 
+ * This is an efficient means of
  * making processor time available to 
  * the other threads of an application or other applications 
- * that might be running on a computer system
+ * that might be running on a computer system. 
+ * The sleep method can also be used for pacing, 
+ * as shown in the example that follows, 
+ * and waiting for another thread with duties 
+ * that are understood to have time requirements
  */
-package org.swg.concurrencydemo;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
